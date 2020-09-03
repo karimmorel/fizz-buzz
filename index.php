@@ -37,7 +37,7 @@ class FizzBuzz {
 
         }
 
-        echo $output;
+        return $output;
     }
 
 }
@@ -46,4 +46,4 @@ $entries = array('Fizz' => 3, 'Buzz' => 5, 'Bizz' => 17, 'Fuzz' => 255, 'Loop' =
 
 $fizz = new FizzBuzz($entries, 2400);
 
-$fizz->fizzBuzz();
+echo $fizz->fizzBuzz();
